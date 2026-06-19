@@ -12,6 +12,7 @@ public class DescriptionObject : MonoBehaviour
 
     private void Awake()
     {
+        _text = GetComponent<TextMeshProUGUI>();
         Close();
     }
 
