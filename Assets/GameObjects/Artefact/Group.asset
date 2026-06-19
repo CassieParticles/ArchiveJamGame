@@ -12,4 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ad9e98cf15a4150bafc4d01776dc73f, type: 3}
   m_Name: Group
   m_EditorClassIdentifier: 
-  artefacts: []
+  artefacts:
+  - {fileID: 3406227718494881065, guid: 852e0090cad5a30438e97e595778efef, type: 3}
+  - {fileID: 3275810795787594102, guid: f1078aaf4b2fbfd45be7abef80698c97, type: 3}
+  - {fileID: 8472897395730029698, guid: f4fe02121dd4a9048a7003a5e5fd9820, type: 3}
+  - {fileID: 4756005851461600909, guid: 5e05a43489a81f94a83a039579e6847d, type: 3}
+  - {fileID: 481409481576777767, guid: 2c1b1f3deb13b614688a10d08b18095a, type: 3}
+  - {fileID: 8245914012216943793, guid: d2dbaeaae3b074d4cb6e06d6660fb3d2, type: 3}
+  - {fileID: 1524170229178804753, guid: 30884ca45859ea947b1e57b007821996, type: 3}
+  - {fileID: 8569497602946849395, guid: 97bc8333fcd229d46bb5fb1cd6c305e9, type: 3}
+  - {fileID: 4346973944027109007, guid: bbb790916297cbb4d9728fb7a6a44d0e, type: 3}
