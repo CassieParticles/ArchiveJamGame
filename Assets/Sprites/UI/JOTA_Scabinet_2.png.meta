@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: b2432371a01f78d4e951bb66d60c64db
+guid: 12f7681b91ad64541a4a9c4d361aeb90
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -4480661984255383982
-    second: JuteWorkerImage_0
+      213: 3750948381718938162
+    second: JOTA_Scabinet_2_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: JuteWorkerImage_0
+      name: JOTA_Scabinet_2_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 863
-        height: 1000
+        x: 46
+        y: 71
+        width: 985
+        height: 952
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2566cd53aad71d1c0800000000000000
-      internalID: -4480661984255383982
+      spriteID: 2320f270eab0e0430800000000000000
+      internalID: 3750948381718938162
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      JuteWorkerImage_0: -4480661984255383982
+      JOTA_Scabinet_2_0: 3750948381718938162
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

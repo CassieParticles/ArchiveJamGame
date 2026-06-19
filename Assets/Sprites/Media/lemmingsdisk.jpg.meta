@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 7d3691d004d0b7b459fdb2743070846b
+guid: e39136ccab4da7a43a52d557488af3cd
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2845474555705442328
-    second: DevJournalImage_0
+      213: -4788150711741151515
+    second: lemmingsdisk_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: DevJournalImage_0
+      name: lemmingsdisk_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 302
-        height: 400
+        width: 1762
+        height: 2000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8104c3e48082d7720800000000000000
-      internalID: 2845474555705442328
+      spriteID: 5e682afdb421d8db0800000000000000
+      internalID: -4788150711741151515
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      DevJournalImage_0: 2845474555705442328
+      lemmingsdisk_0: -4788150711741151515
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
