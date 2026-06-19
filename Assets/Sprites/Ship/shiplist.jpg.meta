@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 6d38a5dad45eda048b2819e45d7ab3ea
+guid: 419f9e745f1eb534289d1e0f789081be
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 9205838540035633236
-    second: BackgroundPrototype1_0
+      213: -2947975877702509784
+    second: shiplist_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -37,7 +37,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -75,7 +75,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: BackgroundPrototype1_0
+      name: shiplist_0
       rect:
         serializedVersion: 2
         x: 0
         y: 0
-        width: 1920
-        height: 1080
+        width: 1571
+        height: 2000
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 450bc66a065b1cf70800000000000000
-      internalID: 9205838540035633236
+      spriteID: 82b1f1bee8fa617d0800000000000000
+      internalID: -2947975877702509784
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      BackgroundPrototype1_0: 9205838540035633236
+      shiplist_0: -2947975877702509784
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
