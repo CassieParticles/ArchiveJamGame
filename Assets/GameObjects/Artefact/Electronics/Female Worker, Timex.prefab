@@ -26,7 +26,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4899506449931635630, guid: 6fe0752fa38517046be3806d6c717b43, type: 3}
       propertyPath: m_Name
-      value: Sinclair Spectrum
+      value: Female Worker, Timex
       objectReference: {fileID: 0}
     - target: {fileID: 8181255811426729346, guid: 6fe0752fa38517046be3806d6c717b43, type: 3}
       propertyPath: m_SpriteTilingProperty.pivot.x
@@ -100,6 +100,10 @@ PrefabInstance:
       propertyPath: category
       value: 
       objectReference: {fileID: 11400000, guid: 7d4c53560d7f65340abfdfe566c90a6f, type: 2}
+    - target: {fileID: 8257888689696160297, guid: 6fe0752fa38517046be3806d6c717b43, type: 3}
+      propertyPath: description
+      value: Photograph of a female worker in the Timex Factory.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

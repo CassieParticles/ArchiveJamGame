@@ -100,6 +100,10 @@ PrefabInstance:
       propertyPath: category
       value: 
       objectReference: {fileID: 11400000, guid: 660071f4c98c84644b31afaa562b4d78, type: 2}
+    - target: {fileID: 8257888689696160297, guid: 6fe0752fa38517046be3806d6c717b43, type: 3}
+      propertyPath: description
+      value: A captain and his crew.
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
