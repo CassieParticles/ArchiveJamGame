@@ -58,11 +58,9 @@ public class Group : MonoBehaviour
         //TODO: artefact told it should stop listening to mouse input
         
         _nextFreeDisplayIndex++;
+        
+        DescriptionObject.Instance.Describe(this);
+        
         return true;
-    }
-
-    private void FixedUpdate()
-    {
-        Debug.Log(_groupDescription.Description);
     }
 }
