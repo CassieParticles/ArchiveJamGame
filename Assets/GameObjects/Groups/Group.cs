@@ -15,9 +15,13 @@ public class Group : MonoBehaviour
 
     private GroupDisplayPoint NextFreeDisplay =>_groupDisplayPoints[_nextFreeDisplayIndex];
     
+    private GroupDescription _groupDescription;
+    public GroupDescription GroupDescription => _groupDescription;
+    
     private void Awake()
     {
         transform.GetComponentsInChildren<GroupDisplayPoint>(_groupDisplayPoints);
+        _groupDescription = GetComponent<GroupDescription>();
     }
 
     [CanBeNull]
@@ -55,5 +59,10 @@ public class Group : MonoBehaviour
         
         _nextFreeDisplayIndex++;
         return true;
+    }
+
+    private void FixedUpdate()
+    {
+        Debug.Log(_groupDescription.Description);
     }
 }

@@ -16,7 +16,9 @@ public class UnsortedGroup : MonoBehaviour
         //Instantiate the artefacts and add to list
         foreach (var artefact in artefacts.artefacts)
         {
-            _artefacts.Push(Instantiate(artefact));
+            Artefact instance = Instantiate(artefact);
+            instance.name = artefact.name;
+            _artefacts.Push(instance);
         }
     }
 
@@ -32,6 +34,8 @@ public class UnsortedGroup : MonoBehaviour
                 continue;
             }
             //TODO: Add description to group
+            artefactGroup.GroupDescription.AddDescription(artefact);
+            
             //TODO: Randomise positions slightly
             
             //Disable the game objects
