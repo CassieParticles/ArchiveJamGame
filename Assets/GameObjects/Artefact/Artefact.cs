@@ -21,6 +21,8 @@ public class Artefact : MonoBehaviour
 
     [SerializeField] private LayerMask layermask;
 
+    [TextArea(5, 10)] public string description;
+
     private void OnMouseOver() {
         //Allowing the player to pick up the current artefact by clicking it
         if (Input.GetMouseButtonDown(0) && !isPlaced) {
