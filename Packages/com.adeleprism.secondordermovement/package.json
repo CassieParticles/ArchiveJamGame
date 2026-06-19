@@ -1,0 +1,13 @@
+{
+  "name": "com.adeleprism.secondordermovement",
+  "version": "1.0.0",
+  "displayName": "Second Order Movement",
+  "description": "Uses a Second Order Differential Equation to calculate a position to move it towards a target position. \n\nFeatures include tweakable variables to alter the movement itself, and a graph that displays the movement in the inspector",
+  "unity": "6000.0",
+  "unityRelease": "38f1",
+  "author": {
+    "name": "AdelePrism",
+    "email": "adelebauer13@gmail.com",
+    "url": "https://adelebauer.github.io/Portfolio"
+  }
+}
