@@ -47,6 +47,11 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   category: {fileID: 0}
+  SOM:
+    frequency: 2
+    zeta: 0.4
+    response: 0
+  target: {x: 0, y: 0}
 --- !u!212 &3844509802155856634
 SpriteRenderer:
   m_ObjectHideFlags: 0
