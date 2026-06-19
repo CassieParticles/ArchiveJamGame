@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: f060c307048e8b94196e6fc30a4146e7
+guid: b3f2ea6297970a54590d84cb3b724ed8
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1255718006036091532
-    second: FloppyDiskImage_0
+      213: 6474463013296232968
+    second: JOTA_frame_1_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FloppyDiskImage_0
+      name: JOTA_frame_1_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 323
-        height: 369
+        x: 36
+        y: 28
+        width: 1008
+        height: 1835
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 47d2828602bc29ee0800000000000000
-      internalID: -1255718006036091532
+      spriteID: 80a5de2bec9e9d950800000000000000
+      internalID: 6474463013296232968
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      FloppyDiskImage_0: -1255718006036091532
+      JOTA_frame_1_0: 6474463013296232968
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
