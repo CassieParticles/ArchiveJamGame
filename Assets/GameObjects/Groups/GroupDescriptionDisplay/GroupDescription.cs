@@ -6,7 +6,7 @@ public class ArtefactDescription
     {
         _name = artefact.name;
         //TODO: Get description of artefact
-        _description = "TODO";
+        _description = artefact.description;
     }
 
     private string _name;
