@@ -1,4 +1,5 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
 using JetBrains.Annotations;
 using UnityEngine;
 
@@ -9,6 +10,15 @@ public class Group : MonoBehaviour
     public Category Category => category;
     
     private List<Artefact> _addedArtefacts = new List<Artefact>();
+    private List<GroupDisplayPoint> _groupDisplayPoints = new List<GroupDisplayPoint>();
+    private int _nextFreeDisplayIndex = 0;
+
+    private GroupDisplayPoint NextFreeDisplay =>_groupDisplayPoints[_nextFreeDisplayIndex];
+    
+    private void Awake()
+    {
+        transform.GetComponentsInChildren<GroupDisplayPoint>(_groupDisplayPoints);
+    }
 
     [CanBeNull]
     public static Group GetGroup(Category category)
@@ -37,6 +47,13 @@ public class Group : MonoBehaviour
         //TODO: Right artefact
         _addedArtefacts.Add(artefact);
         
+        //Artefact should be positioned and resized to the desired size
+        GroupDisplayPoint nextDisplayPoint = NextFreeDisplay;
+        artefact.transform.position = nextDisplayPoint.transform.position;
+        artefact.transform.localScale = nextDisplayPoint.transform.localScale;
+        //TODO: artefact told it should stop listening to mouse input
+        
+        _nextFreeDisplayIndex++;
         return true;
     }
 }
