@@ -28,6 +28,38 @@ PrefabInstance:
       propertyPath: m_Name
       value: PostaDiDonna
       objectReference: {fileID: 0}
+    - target: {fileID: 4899506449931635630, guid: 6fe0752fa38517046be3806d6c717b43, type: 3}
+      propertyPath: m_Layer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8181255811426729346, guid: 6fe0752fa38517046be3806d6c717b43, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.x
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8181255811426729346, guid: 6fe0752fa38517046be3806d6c717b43, type: 3}
+      propertyPath: m_SpriteTilingProperty.pivot.y
+      value: 0.5
+      objectReference: {fileID: 0}
+    - target: {fileID: 8181255811426729346, guid: 6fe0752fa38517046be3806d6c717b43, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8181255811426729346, guid: 6fe0752fa38517046be3806d6c717b43, type: 3}
+      propertyPath: m_SpriteTilingProperty.newSize.y
+      value: 5.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8181255811426729346, guid: 6fe0752fa38517046be3806d6c717b43, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.x
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 8181255811426729346, guid: 6fe0752fa38517046be3806d6c717b43, type: 3}
+      propertyPath: m_SpriteTilingProperty.oldSize.y
+      value: 5.05
+      objectReference: {fileID: 0}
+    - target: {fileID: 8181255811426729346, guid: 6fe0752fa38517046be3806d6c717b43, type: 3}
+      propertyPath: m_SpriteTilingProperty.adaptiveTilingThreshold
+      value: 0.5
+      objectReference: {fileID: 0}
     - target: {fileID: 8210115501678537780, guid: 6fe0752fa38517046be3806d6c717b43, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -71,7 +103,11 @@ PrefabInstance:
     - target: {fileID: 8257888689696160297, guid: 6fe0752fa38517046be3806d6c717b43, type: 3}
       propertyPath: category
       value: 
-      objectReference: {fileID: 11400000, guid: 7964e73a5723e3446920465c4e9d3f49, type: 2}
+      objectReference: {fileID: 11400000, guid: 7d4c53560d7f65340abfdfe566c90a6f, type: 2}
+    - target: {fileID: 8257888689696160297, guid: 6fe0752fa38517046be3806d6c717b43, type: 3}
+      propertyPath: layermask.m_Bits
+      value: 16
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
