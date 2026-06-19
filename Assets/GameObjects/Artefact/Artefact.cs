@@ -12,6 +12,7 @@ public class Artefact : MonoBehaviour
     bool isCurrentArtefact = false;
     bool isHeld = false;
     bool isHovered;
+    bool isFalling = false;
     public bool isPlaced = false;
 
     [SerializeField] SecondOrderMovement<Vector2> SOM;
@@ -25,7 +26,7 @@ public class Artefact : MonoBehaviour
 
     private void OnMouseOver() {
         //Allowing the player to pick up the current artefact by clicking it
-        if (Input.GetMouseButtonDown(0) && !isPlaced) {
+        if (Input.GetMouseButtonDown(0) && !isPlaced && !isFalling) {
             isHeld = !isHeld;
             isHovered = true;
             Drop();
@@ -41,7 +42,7 @@ public class Artefact : MonoBehaviour
         }
 
         //Move the artefact towards the current target position with Second Order Movement
-        if (!isPlaced) {
+        if (!isPlaced && !isFalling) {
             if (isHeld) {
                 target = Camera.main.ScreenToWorldPoint(Input.mousePosition);
             } else {
@@ -64,7 +65,7 @@ public class Artefact : MonoBehaviour
         //Debug.Log("Sent Ray " + ray.ToString());
         if (Physics.Raycast(ray, out hit)) {
             if (hit.collider.gameObject.GetComponent<Group>()) {
-                isPlaced = true;
+                isFalling = true;
                 StartCoroutine(DelayBeforeCheck(1, hit.transform.position, hit));
                 
             }
@@ -94,6 +95,7 @@ public class Artefact : MonoBehaviour
             timer += Time.fixedDeltaTime;
         }
         unsorted.TryGroup(hit.collider.gameObject.GetComponent<Group>());
+        isFalling = false;
         if (!isPlaced) {
             SOM.frequency = oldValues.x;
             SOM.zeta = oldValues.y;

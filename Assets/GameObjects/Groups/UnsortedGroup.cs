@@ -48,6 +48,7 @@ public class UnsortedGroup : MonoBehaviour
         if (group.AddArtefact(artefact))
         {
             //Success
+            CurrentArtefact.isPlaced = true;
             //Remove top artefact
             _artefacts.Pop();
             CurrentArtefact.gameObject.SetActive(true);
