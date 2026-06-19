@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class UnsortedGroup : MonoBehaviour
 {
-    [SerializeField] private ArtefactGroup group;
+    [SerializeField] private ArtefactGroup artefacts;
 
     private readonly Stack<Artefact> _artefacts = new Stack<Artefact>();
 
@@ -14,7 +14,7 @@ public class UnsortedGroup : MonoBehaviour
     private void Awake()
     {
         //Instantiate the artefacts and add to list
-        foreach (var artefact in group.artefacts)
+        foreach (var artefact in artefacts.artefacts)
         {
             _artefacts.Push(Instantiate(artefact));
         }
@@ -40,5 +40,23 @@ public class UnsortedGroup : MonoBehaviour
         
         //Enable the first game object
         CurrentArtefact.gameObject.SetActive(true);
+    }
+
+    public void TryGroup(Group group)
+    {
+        Artefact artefact = CurrentArtefact;
+        if (group.AddArtefact(artefact))
+        {
+            //Success
+            
+            //Remove top artefact
+            _artefacts.Pop();
+            CurrentArtefact.gameObject.SetActive(true);
+        }
+        else
+        {
+            //Fail
+            //TODO: Fail logic
+        }
     }
 }
