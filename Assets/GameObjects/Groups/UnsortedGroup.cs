@@ -9,7 +9,7 @@ public class UnsortedGroup : MonoBehaviour
 
     private readonly Stack<Artefact> _artefacts = new Stack<Artefact>();
 
-    public Artefact CurrentArtefact => _artefacts.Peek();
+    public Artefact CurrentArtefact => _artefacts.Count > 0 ? _artefacts.Peek() : null;
 
     private void Awake()
     {

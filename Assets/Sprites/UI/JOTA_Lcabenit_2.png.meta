@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      JOTA_Lcabenit_2_0: 173055878097549425
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
