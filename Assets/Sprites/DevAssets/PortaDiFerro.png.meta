@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      PortaDiFerro_0: -678721102350996789
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
