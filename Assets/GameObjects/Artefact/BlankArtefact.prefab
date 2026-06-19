@@ -47,11 +47,20 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   category: {fileID: 0}
+  isPlaced: 0
   SOM:
     frequency: 2
     zeta: 0.4
     response: 0
+  SmoothMovementValues: {x: 0.82, y: 1.01, z: 1}
+  SOMShrink:
+    frequency: 0.5
+    zeta: 1.01
+    response: 1
   target: {x: 0, y: 0}
+  layermask:
+    serializedVersion: 2
+    m_Bits: 0
 --- !u!212 &3844509802155856634
 SpriteRenderer:
   m_ObjectHideFlags: 0
